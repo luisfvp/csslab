@@ -4,6 +4,6 @@ As a passionate Web developer, my journey to mastery begins with the CSS Practic
 
 This boilerplate is designed with a focus on providing individual CSS files for each project, allowing me to practice and improve my skills in a project-specific context.
 
-### CSS Links Documentation
+### CSS Links. Documentation and resources.
 
 - https://csslab.app/
