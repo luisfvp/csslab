@@ -1,15 +1,15 @@
 .container {
     align-items: center;
-    background: #35524A;
+    background: #35524a;
     display: flex;
     height: 100vh;
     justify-content: center;
     width: 100vw;
-
 }
 
-.square {
+.semi-circle {
     background-color: #fff;
+    border-radius: 50% 50% 50% 50%;
     height: 400px;
-    width: 400px;
+    width: 500px;
 }

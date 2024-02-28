@@ -1,16 +1,16 @@
 .container {
-    width: 100vw;
-    height: 100vh;
+    align-items: center;
     background: #35524a;
     display: flex;
-    align-items: center;
+    height: 100vh;
     justify-content: center;
+    width: 100vw;
 }
 
 .triangle {
-    width: 0;
-    height: 0;
     border-bottom: 450px solid #fff;
     border-left: 400px solid transparent;
     border-right: 400px solid transparent;
+    height: 0;
+    width: 0;
 }
