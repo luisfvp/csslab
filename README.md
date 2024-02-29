@@ -6,6 +6,6 @@ This boilerplate is designed with a focus on providing individual CSS files for 
 
 ### CSS Links. Documentation and resources.
 
-- [csslab] (https://csslab.app/)
+- [csslab](https://csslab.app/)
 - [css tricks](https://css-tricks.com/)
 - [w3schools](https://www.w3schools.com/css/default.asp)
