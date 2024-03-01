@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #35524a;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parallelogram {
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    transform: skew(20deg);
+}
