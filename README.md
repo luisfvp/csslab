@@ -9,3 +9,8 @@ This boilerplate is designed with a focus on providing individual CSS files for 
 - [csslab](https://csslab.app/)
 - [css tricks](https://css-tricks.com/)
 - [w3schools](https://www.w3schools.com/css/default.asp)
+- [awesome-css-learning](https://github.com/micromata/awesome-css-learning)
+- [Learn CSS](https://web.dev/learn/css/)
+- [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Smashing Magazine](https://www.smashingmagazine.com/articles/)
+- [CodePen](https://codepen.io/)
