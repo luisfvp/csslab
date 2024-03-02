@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>csslab</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+  <style>
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background: #35524a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leaf {
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        /* The code commented below works as well */
+      /*   border-top-left-radius: 100%;
+        border-bottom-right-radius: 100%; */
+        border-radius: 400px 0;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leaf"></div>
+    </div>
+</body>
+</html>
