@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>csslab</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+  <style>
+    .container {
+        background: #35524a;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .star1 {
+        width: 0;
+        height: 0;
+        border-bottom: 400px solid #fff;
+        border-left: 230px solid transparent;
+        border-right: 230px solid transparent;
+        position: relative;
+    }
+    .star1:before {
+        position: absolute;
+        content: "";
+        height: 0;
+        width: 0;
+        border-top: 400px solid #fff;
+        border-left: 230px solid transparent;
+        border-right: 230px solid transparent;
+        top: 110px;
+        left:-230px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="star1"></div>
+        <div class="star2"></div>
+    </div>
+</body>
+</html>
