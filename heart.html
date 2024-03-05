@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>csslab</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+  <style>
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background: #35524a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heart {
+        width: 400px;
+        height: 400px;
+        background: pink;
+        transform: rotate(45deg);
+    }
+    .heart:before {
+        position: absolute;
+        content: "";
+        background-color: pink;
+        height: 60%;
+        width: 100%;
+        top: -59%;
+        border-radius: 250px 250px 0 0;
+    }
+    .heart:after {
+        position: absolute;
+        content: "";
+        background-color: pink;
+        height: 60%;
+        width: 100%;
+        top: 20%;
+        right: 79%;
+        transform: rotate(-90deg);
+        border-radius: 250px 250px 0 0;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart"></div>
+    </div>
+</body>
+</html>
